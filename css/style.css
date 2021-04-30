@@ -94,3 +94,12 @@ ul {
   color: #fa9905;
 }
 
+.owl-carousel{
+  padding: 2rem 2rem;
+}
+
+
+.carousel-itema{
+  box-sizing: border-box;
+  padding: 0rem 1rem;
+}
