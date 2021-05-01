@@ -157,3 +157,9 @@ ul {
 .owl-stage-outer {
   padding: 20px;
 }
+
+@media screen and (max-width:600px) {
+  .navlogo{
+    width: auto;
+  }
+}
