@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap");
 
 html,
 body {
@@ -32,10 +32,52 @@ ul {
   list-style-type: none;
 }
 
-.header{
-  height: 90%;
-  width: 100%;
+.header1{
+  background: url("../src/img/pexels-george-sultan-1409999.png") center center fixed;
+  color: #FFF;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -msn-background-size: cover;
 }
+.header1 .overlay{
+  background: rgba(0, 0, 0, 0.58);
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0; 
+}
+
+
+.header1 .navbar-default {
+background-color:transparent !important;
+border-color:transparent;
+background-image:none;
+box-shadow:none;	
+}
+.header1 .navbar-default .navbar-brand{
+  font-size: 30px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+.header1 .navbar-default .navbar-nav>li>a {
+ font-size:20px; 
+ color:#fff; 
+  border-bottom: 1px solid transparent
+}
+
+
+.header1 .navbar-toggle {
+    margin:10px 0; 
+    background:#36C; 
+    color:#FFF;
+}
+
 
 .navbar {
   background: #fff;
@@ -100,24 +142,24 @@ ul {
   color: #fa9905;
 }
 
-h1.text-uppercase{
+h1.text-uppercase {
   font-family: "Merriweather", serif;
   align-items: center;
   font-size: 5vw;
   color: #f6f6f6;
   text-shadow: 4px 3px 5px black;
   text-decoration: underline;
-  margin-top: -18vw;
+  /* margin-top: -18vw; */
 }
 
-.img1{
+.img1 {
   opacity: 0.4;
 }
 
-.title-btn{
+.title-btn {
   font-size: 1.8vw;
   display: inline-block;
-  background-color: rgba(0, 0, 0,0);
+  background-color: rgba(0, 0, 0, 0);
   cursor: pointer;
   color: white;
   border: white 0.125em solid;
@@ -133,7 +175,7 @@ h1.text-uppercase{
 .title-btn:hover,
 .title-btn:focus {
   color: black;
-  background-color:white;
+  background-color: white;
   text-shadow: none;
   /* box-shadow: inset 0 0 1em 0 white, 0 0 2em 0 white; */
 }
@@ -142,13 +184,12 @@ h1.text-uppercase{
   margin-left: -1em;
 } */
 
-.carousel-item{
+/* .carousel-item {
   background-color: #000;
   max-height: 120vh;
   margin: 0;
   padding: 0;
-}
-
+} */
 
 .owl-carousel {
   padding: 2rem 1.5rem;
@@ -161,7 +202,6 @@ h1.text-uppercase{
   text-align: center;
   font-family: sans-serif;
 }
-
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
@@ -184,8 +224,7 @@ h1.text-uppercase{
 }
 
 @media screen and (max-width: 1000px) {
-  .title-btn{
+  .title-btn {
     font-size: 2.5vw;
   }
 }
-

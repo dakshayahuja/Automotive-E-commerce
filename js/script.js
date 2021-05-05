@@ -24,6 +24,6 @@ $('.owl-carousel').owlCarousel({
 });
 
 document.getElementById("btn1").onclick = function () {
-  window.open("/pages/products.html", "_blank");
+  window.open("../pages/products.html", "_blank");
 };
 
