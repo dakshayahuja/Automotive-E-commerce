@@ -27,18 +27,18 @@ ul {
 }
 
 .header{
-  height: 90;
+  height: 90%;
   width: 100%;
 }
 
 .navbar {
   background: #fff;
-  padding: 1rem 1rem;
-  min-height: 12vh;
+  padding: 0.5rem 1rem;
+  min-height: 11vh;
 }
 
 .navbar .navbar-brand a {
-  padding: 1rem 0;
+  padding: 1rem 0rem;
   display: block;
   text-decoration: none;
 }
@@ -94,59 +94,33 @@ ul {
   color: #fa9905;
 }
 
+.carousel-item{
+  max-height: 88vh;
+  margin: 0;
+  padding: 0;
+}
+
+
 .owl-carousel {
-  padding: 2rem 2rem;
+  padding: 2rem 1.5rem;
 }
 
 .carousel-wrapper {
-  width: 90%;
+  width: 95%;
   margin: auto;
   position: relative;
   text-align: center;
   font-family: sans-serif;
 }
 
-.owl-carousel .owl-navv {
-  overflow: hidden;
-  height: 0px;
-}
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
   background: #5110e9;
 }
 
-.owl-carousel .item {
+.owl-carousel .carousel-itema {
   text-align: center;
-}
-
-.owl-carousel .nav-button {
-  height: 70px;
-  width: 25px;
-  cursor: pointer;
-  position: absolute;
-  top: 8.5rem !important;
-}
-
-.owl-carousel .owl-prev.disabled,
-.owl-carousel .owl-next.disabled {
-  pointer-events: none;
-  opacity: 0.25;
-}
-
-.owl-carousel .owl-prev {
-  left: -35px;
-}
-
-.owl-carousel .owl-next {
-  right: -35px;
-}
-
-.owl-theme .owl-nav [class*="owl-"] {
-  color: #ffffff;
-  font-size: 39px;
-  background: #000000;
-  border-radius: 3px;
 }
 
 .grow {
@@ -155,8 +129,9 @@ ul {
 .grow:hover {
   transform: scale(1.1);
 }
+
 .owl-stage-outer {
-  padding: 20px;
+  padding: 2rem 0px;
 }
 
 @media screen and (max-width: 600px) {

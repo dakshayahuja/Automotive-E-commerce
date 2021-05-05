@@ -1,14 +1,15 @@
 $('.owl-carousel').owlCarousel({
   loop: true,
-  center:true,
-  margin: 22,
+  stagePadding:60,
+  // center:true,
+  margin: 20,
   autoplay: true,
   autoplayTimeout: 3000,
   autoplayHoverPause: true,
   animateOut: 'fadeOut',
   dots: false,
-  nav: true,
-  navText: ["<div class='nav-button owl-prev'>‹</div>", "<div class='nav-button owl-next'>›</div>"],
+  // nav: true,
+  // navText: ["<div class='nav-button owl-prev'>‹</div>", "<div class='nav-button owl-next'>›</div>"],
   responsive: {
     0: {
       items: 1
