@@ -23,7 +23,7 @@ $('.owl-carousel').owlCarousel({
   }
 });
 
-document.getElementById(".btn1").onclick = function () {
-  window.open('www.google.com', _blank);
+document.getElementById("b1").onclick = function () {
+  window.open("www.google.com", _blank);
 }
       
