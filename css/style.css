@@ -32,7 +32,7 @@ ul {
   list-style-type: none;
 }
 
-.header1{
+.header{
   background: url("../src/img/pexels-george-sultan-1409999.png") center center fixed;
   color: #FFF;
   height: 100vh;
@@ -43,7 +43,7 @@ ul {
   -o-background-size: cover;
   -msn-background-size: cover;
 }
-.header1 .overlay{
+.header .overlay{
   background: rgba(0, 0, 0, 0.58);
   width: 100%;
   height: 100vh;
@@ -53,26 +53,26 @@ ul {
 }
 
 
-.header1 .navbar-default {
+.header .navbar-default {
 background-color:transparent !important;
 border-color:transparent;
 background-image:none;
 box-shadow:none;	
 }
-.header1 .navbar-default .navbar-brand{
+.header .navbar-default .navbar-brand{
   font-size: 30px;
   font-weight: bold;
   color: #FFF;
 }
 
-.header1 .navbar-default .navbar-nav>li>a {
+.header .navbar-default .navbar-nav>li>a {
  font-size:20px; 
  color:#fff; 
   border-bottom: 1px solid transparent
 }
 
 
-.header1 .navbar-toggle {
+.header .navbar-toggle {
     margin:10px 0; 
     background:#36C; 
     color:#FFF;
