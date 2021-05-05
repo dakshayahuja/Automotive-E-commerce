@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
 
 html,
 body {
@@ -94,8 +95,22 @@ ul {
   color: #fa9905;
 }
 
+h1.text-uppercase{
+  font-family: "Merriweather", "serif";
+  font-size: calc(4rem + 1vw);
+  color: #f6f6f6;
+  text-shadow: 4px 3px black;
+  text-decoration: underline;
+  /* background-color: rgba(255, 255, 255, 0.5); */
+}
+
+.img1{
+  opacity: 0.4;
+}
+
 .carousel-item{
-  max-height: 88vh;
+  background-color: #000;
+  max-height: 120vh;
   margin: 0;
   padding: 0;
 }
