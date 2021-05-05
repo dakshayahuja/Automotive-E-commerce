@@ -21,4 +21,9 @@ $('.owl-carousel').owlCarousel({
       items: 3
     }
   }
-})
+});
+
+document.getElementById(".btn1").onclick = function () {
+  window.open('www.google.com', _blank);
+}
+      

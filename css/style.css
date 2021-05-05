@@ -13,6 +13,11 @@ body {
   left: 0;
 }
 
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 a {
   text-decoration: none;
   font-weight: 500;
@@ -96,17 +101,45 @@ ul {
 }
 
 h1.text-uppercase{
-  font-family: "Merriweather", "serif";
-  font-size: calc(4rem + 1vw);
+  font-family: "Merriweather", serif;
+  align-items: center;
+  font-size: 5vw;
   color: #f6f6f6;
-  text-shadow: 4px 3px black;
+  text-shadow: 4px 3px 5px black;
   text-decoration: underline;
-  /* background-color: rgba(255, 255, 255, 0.5); */
+  margin-top: -18vw;
 }
 
 .img1{
   opacity: 0.4;
 }
+
+.title-btn{
+  font-size: 1.8vw;
+  display: inline-block;
+  background-color: black;
+  cursor: pointer;
+  color: white;
+  border: white 0.125em solid;
+  padding: 0.4em 1em;
+  border-radius: 0.25em;
+  margin: 1.25em 1em;
+  position: relative;
+  text-shadow: 0 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0 0.45em white;
+  box-shadow: inset 0 0 0.5em 0 white, 0 0 1em 0 white;
+}
+
+.title-btn:hover,
+.title-btn:focus {
+  color: black;
+  background-color:white;
+  text-shadow: none;
+  box-shadow: inset 0 0 1em 0 white, 0 0 2em 0 white;
+}
+
+/* .btn1{
+  margin-left: -2em;
+} */
 
 .carousel-item{
   background-color: #000;
@@ -149,8 +182,8 @@ h1.text-uppercase{
   padding: 2rem 0px;
 }
 
-@media screen and (max-width: 600px) {
-  .navlogo {
-    width: auto;
+@media screen and (max-width: 1000px) {
+  .title-btn{
+    font-size: 2.5vw;
   }
 }
