@@ -209,3 +209,12 @@ h1.text-uppercase{
   cursor: pointer;
   background-color: #e9e8e88b;
 }
+
+.btns .btn-dark{
+  font-size: 1rem;  
+  display: inline-block;
+  cursor: pointer;
+  padding: .3em .7em;
+  border-radius: 0.25em;
+  margin: 1rem 0.25rem;
+}
