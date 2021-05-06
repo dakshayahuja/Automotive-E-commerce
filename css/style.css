@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
 
 html,
 body {
@@ -32,9 +32,9 @@ ul {
   list-style-type: none;
 }
 
-.header{
+.header {
   background: url("../src/img/pexels-george-sultan-1409999.png") center center fixed;
-  color: #FFF;
+  color: #fff;
   height: 100vh;
   position: relative;
   background-size: cover;
@@ -43,35 +43,29 @@ ul {
   -o-background-size: cover;
   -msn-background-size: cover;
 }
-.header .overlay{
+
+.header .overlay {
   background: rgba(0, 0, 0, 0.58);
   width: 100%;
   height: 100vh;
   position: absolute;
   top: 0;
-  left: 0; 
+  left: 0;
 }
-
 
 .header .navbar-default {
-background-color:transparent !important;
-border-color:transparent;
-background-image:none;
-box-shadow:none;	
+  background-color: transparent !important;
+  border-color: transparent;
+  background-image: none;
+  box-shadow: none;
 }
 
-.header .navbar-default .navbar-brand{
-  font-size: 30px;
-  font-weight: bold;
-  color: #FFF;
-}
 
-.header .navbar-default .navbar-nav>li>a {
-  font-size:20px; 
-  color:#fff; 
-  border-bottom: 1px solid transparent
+.header .navbar-default .navbar-nav > li > a {
+  font-size: 20px;
+  color: #fff;
+  border-bottom: 1px solid transparent;
 }
-
 
 .navbar {
   background: #fff;
@@ -185,19 +179,17 @@ h1.text-uppercase {
   padding: 0;
 } */
 
-
-#carousel-heading{
+#carousel-heading {
   margin: 2rem 0.5rem 0rem 4rem;
   color: #313131;
   font-family: Antic Slab;
   text-align: left;
-  background: url(https://www.partsbigboss.in/skin/frontend/smartwave/porto/images/slider-bar.png) right no-repeat;
+  background: url(https://www.partsbigboss.in/skin/frontend/smartwave/porto/images/slider-bar.png)
+    right no-repeat;
 }
-
 
 .owl-carousel {
   padding: 1rem 1.5rem 2rem 1.25rem;
-  
 }
 
 .carousel-wrapper {
