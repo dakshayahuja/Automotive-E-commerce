@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 
 html,
 body {
@@ -59,6 +59,7 @@ border-color:transparent;
 background-image:none;
 box-shadow:none;	
 }
+
 .header .navbar-default .navbar-brand{
   font-size: 30px;
   font-weight: bold;
@@ -66,16 +67,9 @@ box-shadow:none;
 }
 
 .header .navbar-default .navbar-nav>li>a {
- font-size:20px; 
- color:#fff; 
+  font-size:20px; 
+  color:#fff; 
   border-bottom: 1px solid transparent
-}
-
-
-.header .navbar-toggle {
-    margin:10px 0; 
-    background:#36C; 
-    color:#FFF;
 }
 
 
@@ -97,7 +91,7 @@ box-shadow:none;
   color: #e74c3c;
 }
 
-.navbar-toggler {
+.header .navbar-toggler {
   background-color: #e74c3c;
   border: none;
   padding: 10px 6px;
@@ -191,8 +185,19 @@ h1.text-uppercase {
   padding: 0;
 } */
 
+
+#carousel-heading{
+  margin: 2rem 0.5rem 0rem 4rem;
+  color: #313131;
+  font-family: Antic Slab;
+  text-align: left;
+  background: url(https://www.partsbigboss.in/skin/frontend/smartwave/porto/images/slider-bar.png) right no-repeat;
+}
+
+
 .owl-carousel {
-  padding: 2rem 1.5rem;
+  padding: 1rem 1.5rem 2rem 1.25rem;
+  
 }
 
 .carousel-wrapper {
@@ -220,7 +225,7 @@ h1.text-uppercase {
 }
 
 .owl-stage-outer {
-  padding: 2rem 0px;
+  padding: 0rem 0rem 2rem 0rem;
 }
 
 @media screen and (max-width: 1000px) {
