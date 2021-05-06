@@ -56,13 +56,13 @@
               <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./pages/products.html">Products</a>
+              <a class="nav-link" href="./products.html">Products</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./pages/contactUs.html">Contact Us</a>
+              <a class="nav-link" href="./contactUs.html">Contact Us</a>
             </li>
             <li class="nav-item">
-              <a href="./pages/cart.html" class="nav-link" style="margin: 0"
+              <a href="./cart.html" class="nav-link" style="margin: 0"
                 ><img
                   src="https://img.icons8.com/fluent/36/000000/shopping-cart.png"
               /></a>
@@ -73,6 +73,22 @@
     </nav>
 
     <main>
+      <h2 id="carousel-heading">
+        <span style="display: inline; padding-right: 20px; background-color: white;">
+        Highest Rating Products
+      </span>
+        <div class="dropdown" style="display: inline-block; position: absolute; right: 5%; padding-left: 30px; background-color: white;">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Sort By
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="./newProducts.html">New</a></li>
+            <li><a class="dropdown-item" href="./products.html">Popularity</a></li>
+            <li><a class="dropdown-item" href="./lowtohighProducts.html">Price low to high</a></li>
+            <li><a class="dropdown-item" href="#">Highest Rating</a></li>
+          </ul>
+      </span>
+    </h2>
       <div class="container-fluid ">
         <div class="row row-cols-4 row-cols-xxl-3 row-cols-lg-2 row-cols-md-2 row-cols-sm-1 justify-content-center">
         <div class="card col" style="width: 22rem">
@@ -313,7 +329,27 @@
       <button type="button" class="btn btn-dark" id="prev-btn">Previous Page</button>
     </div>
 
-    <footer></footer>
+    <footer>
+      <div class="footer-content">
+        <h3>A+ Automotive</h3>
+        <ul class="socials" style="transform: translateX(-7%);">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+         <ul class="socials ">
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Get A Quote</a></li></ul>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>Copyright &copy; A+ Automotive. All rights reserved</p>
+    </div>
+    </footer>
 
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"

@@ -1,137 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="icon"
-      href="./src/icons8-car-service-96.png"
-      type="image/gif"
-      sizes="32x32"
-    /> 
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="./css/style.css" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="./src/icons8-car-service-96.png" type="image/gif" sizes="32x32" />
 
-    <title>A+ Automotive</title>
-  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
 
-  <body>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img
-                  src="./src/piston-svgrepo-com.svg"
-                  alt=""
-                  width="30%"
-                  class="d-inline-block align-text-top"
-                  style="margin:-5px 0px 0px 10px"
-                />
-                
-              </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarTogglerDemo01"
-              aria-expanded="false"
-              aria-controls="navbarTogglerDemo01"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span><span></span
-              ><span></span>
-            </button>
-            <div class="navbar-collapse collapse" id="navbarTogglerDemo01">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/products.html">Products</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/contactUs.html">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                  <a href="./pages/cart.html" class="nav-link" style="margin: 0;"><img src="https://img.icons8.com/fluent/36/000000/shopping-cart.png"/></a>
-                </li>
-              </ul>
-            </div>
-            </div>
-      </nav>
+  <title>A+ Automotive</title>
+</head>
 
-      <header class="header text-center text-white d-flex">
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./src/piston-svgrepo-com.svg" alt="" width="30%" class="d-inline-block align-text-top"
+          style="margin:-5px 0px 0px 10px" />
 
-            <div class="carousel-item active">
-              <img src="./src/img/pexels-george-sultan-1409999-min.png" class="img1 d-block w-100">
-              <div class="position-absolute top-50 start-50 translate-middle"><h1 class="text-uppercase">A+ Automotive</h1>
-              <button type="button" class="title-btn btn1" id="btn1">Start Shopping</button>
-              <button type="button" class="title-btn">About Us</button>
-            </div>
-            </div>
-          
-    </header>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        aria-expanded="false" aria-controls="navbarTogglerDemo01" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span><span></span><span></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/contactUs.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="./pages/cart.html" class="nav-link" style="margin: 0;"><img
+                src="https://img.icons8.com/fluent/36/000000/shopping-cart.png" /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <main>
-        <section>
-          <h2 id="carousel-heading">
-            <span style="display: inline; padding-right: 20px; background-color: white;">Featured Products</span>
-          </h2>
-          <div class="carousel-wrapper">
-          <div class="owl-carousel owl-theme">
-            <div class="carousel-itema grow">
-              <img src="./src/img/agustin-segura-eDXRq-2LfNM-unsplash.jpg" alt="">
-            </div>
-            <div class="carousel-itema grow">
-              <img src="./src/img/angus-gray-8-V4T4bGlM4-unsplash.jpg" alt="">
-            </div>
-            <div class="carousel-itema grow">
-              <img src="./src/img/ford-mustang-8k-2020-y8-1920x1080.jpg" alt="">
-            </div>
-            <div class="carousel-itema grow">
-              <img src="./src/img/ford-mustang-shelby-1920x1080.jpg" alt="">
-            </div>
-            <div class="carousel-itema grow">
-              <img src="./src/img/mustang_car_sports_car_163407_1920x1080.jpg" alt="">
-            </div>
-            <div class="carousel-itema grow">
-              <img src="./src/img/nissan-gtr-canada-aa-1920x1080.jpg" alt="">
-            </div>
-            <div class="carousel-itema grow">
-              <img src="./src/img/nissan-gtr-nfs-rear-4k-fo-1920x1080.jpg" alt="">
-            </div>
-            <div class="carousel-itema grow">
-              <img src="./src/img/ryan-spencer-c-NEiPIxpYI-unsplash.jpg" alt="">
-            </div>
-            <div class="carousel-itema grow">
-              <img src="./src/img/toyota-supra-modified-4k-3r-1920x1080.jpg" alt="">
+  <header class="header text-center text-white d-flex">
+
+    <div class="carousel-item active">
+      <img src="./src/img/pexels-george-sultan-1409999-min.png" class="img1 d-block w-100">
+      <div class="position-absolute top-50 start-50 translate-middle">
+        <h1 class="text-uppercase">A+ Automotive</h1>
+        <button type="button" class="title-btn btn1" id="btn1">Start Shopping</button>
+        <button type="button" class="title-btn">About Us</button>
+      </div>
+    </div>
+  </header>
+
+
+  <section>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti corporis laudantium minima delectus eos nihil
+      odit provident neque beatae ab hic inventore, eligendi deleniti nisi minus cupiditate quo eius optio recusandae
+      aliquam nostrum qui illo? Eius, eligendi! Accusamus rerum porro obcaecati molestias maiores blanditiis, fugit in
+      est reiciendis debitis nemo nulla, saepe, excepturi tempore aperiam distinctio quisquam esse totam repudiandae
+      culpa quae! Repellat possimus ea in numquam fugit at, architecto quae saepe commodi voluptates ipsum doloribus
+      itaque doloremque magnam, labore earum molestias repellendus natus, optio debitis sunt! Soluta repellendus
+      cupiditate dolor non cum voluptates in nihil labore suscipit illum possimus sapiente inventore porro ex quod
+      incidunt facere est optio, accusamus error. Accusantium non voluptatem recusandae nihil, consequuntur dolorum
+      facere, eius quam quos labore quis quisquam nesciunt quidem laborum corporis in vero explicabo molestias
+      repellendus soluta fugit totam necessitatibus! Nam ex adipisci eos, animi in suscipit perspiciatis repudiandae
+      aspernatur vel obcaecati dicta, aliquam, quos cum neque aperiam totam. Consequatur autem voluptatum magni animi,
+      commodi dignissimos. Accusamus explicabo numquam nobis officia corrupti deleniti esse sunt, quo blanditiis
+      obcaecati tempora molestias, aperiam, soluta cum impedit et dolore sint praesentium facere nisi maiores quibusdam
+      similique ex rerum? Dicta temporibus blanditiis maiores recusandae voluptates architecto.</p>
+  </section>
+
+  <main>
+    <section>
+      <h2 id="carousel-heading">
+        <span style="display: inline; padding-right: 20px; background-color: white;">Featured Products</span>
+      </h2>
+      <div class="carousel-wrapper">
+        <div class="owl-carousel owl-theme">
+          <div class="carousel-itema grow">
+            <img src="./src/img/agustin-segura-eDXRq-2LfNM-unsplash.jpg" alt=""><span>Hello</span>
+          </div>
+          <div class="carousel-itema grow">
+            <img src="./src/img/angus-gray-8-V4T4bGlM4-unsplash.jpg" alt=""><span>Hello</span>
+          </div>
+          <div class="carousel-itema grow">
+            <img src="./src/img/ford-mustang-8k-2020-y8-1920x1080.jpg" alt=""><span>Hello</span>
+          </div>
+          <div class="carousel-itema grow">
+            <img src="./src/img/ford-mustang-shelby-1920x1080.jpg" alt=""><span>Hello</span>
+          </div>
+          <div class="carousel-itema grow">
+            <img src="./src/img/mustang_car_sports_car_163407_1920x1080.jpg" alt=""><span>Hello</span>
+          </div>
+          <div class="carousel-itema grow">
+            <img src="./src/img/nissan-gtr-canada-aa-1920x1080.jpg" alt=""><span>Hello</span>
+          </div>
+          <div class="carousel-itema grow">
+            <img src="./src/img/nissan-gtr-nfs-rear-4k-fo-1920x1080.jpg" alt=""><span>Hello</span>
+          </div>
+          <div class="carousel-itema grow">
+            <img src="./src/img/ryan-spencer-c-NEiPIxpYI-unsplash.jpg" alt=""><span>Hello</span>
+          </div>
+          <div class="carousel-itema grow">
+            <img src="./src/img/toyota-supra-modified-4k-3r-1920x1080.jpg" alt=""><span>Hello</span>
+          </div>
+        </div>
+        <a href="./pages/products.html" class="view-more">View More</a>
+      </div>
+    </section>
+
+    <section>
+      <div class="container.fluid">
+        <h2 id="carousel-heading"><span style="display: inline; padding-right: 20px; background-color: white;">Customer
+            Reviews</span></h2>
+        <div class="row">
+          <div class="col">
+            <div class="container review-container">
+              <div class="reviews">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i><br>
+                <span class="review-name">Noor Arora,&nbsp;</span> <span class="review-date">Mar 6, 2021</span>
+                <p class="review-content">A+ Automotive is the best place to buy car spare parts online. I’ve been
+                  gathering from them for over a year now and they have always delivered the best product at wonderful
+                  prices. 10/10 recommended.</p>
+                <hr>
+              </div>
+              <div class="reviews">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i><br>
+                <span class="review-name">Mohit Garg,&nbsp;</span> <span class="review-date">Jan 2, 2021</span>
+                <p class="review-content">As ford owner in India, A+ Automotive has helped me to source reliable parts
+                  at affordable rates. This saves us from sevice centres trying to cheat you.</p>
+                <hr>
+              </div>
+              <div class="reviews">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i><br>
+                <span class="review-name">Garvit Kapoor,&nbsp;</span> <span class="review-date">Dec 17, 2020</span>
+                <p class="review-content">I’ve been collecting spare parts to upgrade my car since an year and A+
+                  Automotive is the only place where you will get the best product at the best price. I would definitely
+                  recommend this to everyone.</p>
+              </div>
+              <a href="/pages/customerReviews.html" class="view-more">View More</a>
             </div>
           </div>
         </div>
-        </section>
+      </div>
+    </section>
 
-        <section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus corporis blanditiis doloremque velit molestiae? Praesentium temporibus veniam autem qui repudiandae consequuntur magnam in magni saepe eligendi officia libero rerum laudantium accusamus ullam aut explicabo dolorem commodi dolore, beatae iure veritatis neque ad illum. Nisi laboriosam mollitia commodi est earum ipsa accusantium illum! Voluptatibus tenetur numquam vero obcaecati facere eos, atque distinctio rerum excepturi earum maiores neque cumque saepe maxime! Cum modi placeat sapiente veritatis odio totam repellendus dolorem pariatur earum voluptas, nesciunt in necessitatibus provident optio vel, rerum molestias praesentium laboriosam officia assumenda doloribus, doloremque veniam? Odit, dolores perspiciatis expedita nobis totam excepturi iusto quasi esse dolorum obcaecati molestias at reprehenderit quis minima fuga ducimus dolor cum, quia voluptas asperiores beatae! Vel iusto cumque, maiores culpa harum distinctio reprehenderit sed eligendi sint vitae nihil earum, rerum debitis iste voluptate doloremque hic ducimus? Vero cupiditate tenetur ipsa quam nihil at blanditiis, ex temporibus accusamus! Alias voluptatibus, eum eligendi quia totam accusamus cupiditate illum at. Corporis, pariatur impedit? Eveniet, dolor voluptatibus totam porro, officiis animi eum facere cumque obcaecati libero doloribus aut. Tenetur quam doloremque, atque natus laborum ipsam accusamus placeat temporibus. Repellat eaque aut magnam facere sed saepe ipsam voluptas dolorem est, inventore corporis doloribus odit rem iste nobis officia nam? Laudantium expedita voluptates, fugiat voluptas et iusto totam vel, quis quo incidunt eius quia illo rerum? Nam quam quasi sit voluptatum, praesentium voluptate vitae, dignissimos nulla possimus accusantium perspiciatis id reiciendis a fuga. Fugit consequatur quos enim beatae possimus voluptatum aperiam nemo minima, ut praesentium quia ipsum eaque nihil error eligendi ullam laborum nisi? Dignissimos nesciunt quia debitis ex iusto, natus commodi id sed labore. Assumenda esse repellat, quo amet voluptatem similique. Error quaerat deleniti sapiente esse excepturi necessitatibus veritatis rerum inventore similique ipsa dolore, quis tempore mollitia natus molestias expedita blanditiis iste iure hic dolor magnam quia. At, vitae! Non debitis similique unde aperiam ea qui consectetur animi beatae corrupti voluptas, dolorum adipisci minima iure quia necessitatibus doloribus voluptatem et modi nemo. Eos, asperiores natus harum blanditiis voluptatibus ad repudiandae deleniti, soluta enim ullam qui incidunt voluptas nam. Repellendus autem laboriosam vel ipsa recusandae minus alias temporibus quibusdam consequuntur! Repellendus quisquam temporibus laudantium labore soluta nisi cupiditate, ut magni atque illum aut, doloribus expedita quo dolore repudiandae deserunt voluptates porro asperiores accusantium debitis provident! Veniam, impedit accusamus. Nesciunt cumque corrupti laudantium laborum, illum cupiditate voluptate, sit quod temporibus odit iusto ducimus dicta! Molestiae consequuntur temporibus laboriosam reiciendis neque eius nihil adipisci. Non, deserunt nam. Fuga modi laborum sunt vero sapiente voluptatum aliquid illo voluptates rem incidunt impedit iure iste consequatur ipsa iusto aliquam porro, nostrum nihil tempore veritatis? Placeat dolorum quisquam excepturi vero itaque iure atque non ipsum vel, vitae voluptas saepe sunt temporibus eos ab. Nostrum praesentium magnam ratione veritatis dolores. Incidunt cum vero illo. Dolor ut praesentium numquam ex blanditiis. Dignissimos corporis sed quod quisquam libero, non laudantium sapiente deleniti iusto asperiores, laboriosam quae natus perferendis molestiae reiciendis exercitationem ipsam corrupti enim alias praesentium cum voluptas distinctio nulla. Impedit vero illum id perspiciatis praesentium aliquid, ipsam repellat quod! Nesciunt aspernatur autem amet repellendus eveniet sequi doloremque deserunt error, perspiciatis cumque iste eaque consequatur inventore provident non, dolorum excepturi! Esse impedit aut eum quidem laboriosam explicabo ratione quisquam! Voluptas, id illo earum possimus impedit hic neque sint labore doloremque. Aut ex esse laudantium mollitia eum minus necessitatibus similique, neque in corporis provident voluptates dolorem numquam explicabo veritatis ea suscipit. Ad eum porro voluptatem harum, mollitia nostrum distinctio, nemo dolorum rem odio, ab veritatis repellendus? Earum cupiditate, possimus blanditiis perspiciatis et facere nostrum doloribus minus. Atque accusantium reprehenderit eveniet inventore quas. Illum dolor voluptatum sunt. Nostrum placeat minus, dolore impedit ipsa nam quam dolorem, iure blanditiis saepe, laboriosam vel nesciunt eveniet exercitationem reprehenderit dolorum voluptas cumque doloribus odit architecto quo? Alias ut, voluptatem numquam esse ea mollitia officia aut atque ab, ipsum sequi vitae. Non molestiae enim recusandae nihil, vitae facilis ut doloremque quis officiis officia, ex atque eligendi expedita obcaecati modi debitis eveniet amet quas deleniti reiciendis, incidunt voluptates optio. Perspiciatis, quae quas. Necessitatibus aliquid sunt dolorum sit repellendus quia amet, modi dolore officia, voluptas eum sint accusamus, deserunt molestiae sed ratione. Expedita explicabo repudiandae accusantium reprehenderit, accusamus ut corrupti neque ducimus corporis quibusdam quae sed doloremque doloribus rem quos provident fuga odit dolor alias autem optio minus aspernatur harum repellendus. Repellendus sit, eos deserunt a ratione nemo? Delectus suscipit expedita corrupti. Voluptas ad, eligendi amet, optio culpa atque error, numquam voluptate illo inventore iste quibusdam reprehenderit nesciunt omnis explicabo sit! Natus quisquam ratione explicabo tenetur suscipit? Voluptatum assumenda quam iure temporibus fugit id numquam cumque quod vero, blanditiis at ad ea eum quaerat exercitationem eveniet eius omnis illum provident cum itaque dicta, quisquam unde. Placeat numquam excepturi, et rerum possimus ipsa aliquid libero, delectus est, fugit quo harum temporibus nesciunt a recusandae non nemo iusto sit quidem velit minus. Ex, nesciunt illum modi vero ratione perspiciatis quo aperiam consequatur deserunt quae sequi natus? Dicta cum a incidunt quidem quis labore sint ipsa earum, beatae et obcaecati placeat voluptatem laboriosam voluptate, ipsum error ipsam tempora harum quae ab nulla provident repellendus. Ab vel mollitia consequuntur, similique voluptate sint praesentium quidem ad tenetur sapiente minus odio qui fugit! Quis assumenda laborum tempora repudiandae, non voluptate quae sint mollitia aperiam laudantium vero ut maiores nisi sed libero unde quisquam eos dolorem harum placeat nostrum id! Consequuntur similique velit voluptas laborum, minima fuga ad! Expedita officiis quaerat, vero unde amet voluptatum assumenda? Nesciunt vitae sed illo, facere doloribus architecto accusamus! Nemo ipsam quaerat excepturi maiores saepe pariatur aperiam consectetur corrupti quos sit iusto debitis consequuntur vel veniam, laudantium aliquid neque consequatur laboriosam magni rem voluptas? Accusamus, tempora unde, quae quos illo quis dignissimos consequuntur temporibus explicabo porro commodi iure error. Eligendi natus consequatur in sit a expedita. Iste, eligendi? Ab reiciendis quo temporibus sit commodi quidem odio atque, explicabo, recusandae, exercitationem aliquam sed quam eos non blanditiis impedit? Explicabo, modi unde totam blanditiis autem, necessitatibus, labore hic tempora quasi ab expedita.</p>
-      </section>
+  </main>
 
-    </main>
+  <footer>
+    <div class="footer-content">
+      <h3>A+ Automotive</h3>
+      <ul class="socials" style="transform: translateX(-7%);">
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+      </ul>
+      <ul class="socials ">
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Return Policy</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Get A Quote</a></li>
+      </ul>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright &copy; A+ Automotive. All rights reserved</p>
+    </div>
+  </footer>
 
-    <footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"></script>
 
-    </footer>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-      crossorigin="anonymous"
-    ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
+    integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
+    crossorigin="anonymous"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
 
-    <script src="js/script.js"></script>
-  </body>
 </html>
