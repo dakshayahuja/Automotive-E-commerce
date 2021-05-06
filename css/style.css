@@ -38,7 +38,6 @@ ul {
 }
 
 .navbar {
-  background: #fff;
   padding: 0.5rem 1rem;
   min-height: 11vh;
 }
@@ -196,3 +195,17 @@ h1.text-uppercase{
   }
 }
 
+
+.card{
+  margin: 2rem 1rem;
+}
+
+.card-img-top{
+  padding-top: 0.25rem;
+}
+
+.card:hover{
+  margin: 1.25rem 1rem;
+  cursor: pointer;
+  background-color: #e9e8e88b;
+}
