@@ -38,3 +38,4 @@ $(document).on('click', '#prev-btn', function () {
 $(document).on('click', '.navbar-brand', function () {
   window.open("../index.html", "_self");
 });
+
