@@ -239,6 +239,28 @@ h1.text-uppercase {
   font-family: "Bitter", sans-serif;
 }
 
+.review-fp{
+  background-color: #f4eeffb1;  
+}
+
+.fp-name{
+  font-size: 1.6rem;
+}
+
+.fp-date{
+  font-size: 1.3rem;
+}
+
+.fp-content{
+  font-size: 1.25rem;
+  padding: 0.5rem;
+}
+
+hr{
+  color: black;
+  border: 1px solid black;
+}
+
 .view-more {
   text-decoration: underline;
   margin-left: 1rem;
