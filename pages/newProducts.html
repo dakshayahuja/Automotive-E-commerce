@@ -1,374 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="icon"
-      href="../src/icons8-car-service-96.png"
-      type="image/gif"
-      sizes="32x32"
-    />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="../css/style.css" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="../src/icons8-car-service-96.png" type="image/gif" sizes="32x32" />
 
-    <title>A+ Automotive</title>
-  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="../css/style.css" />
 
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img
-            src="../src/piston-svgrepo-com.svg"
-            alt=""
-            width="30%"
-            class="d-inline-block align-text-top"
-            style="margin: -5px 0px 0px 10px"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo01"
-          aria-expanded="false"
-          aria-controls="navbarTogglerDemo01"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span><span></span><span></span>
-        </button>
-        <div class="navbar-collapse collapse" id="navbarTogglerDemo01">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./products.html">Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contactUs.html">Contact Us</a>
-            </li>
-            <li class="nav-item">
-              <a href="./cart.html" class="nav-link" style="margin: 0"
-                ><img
-                  src="https://img.icons8.com/fluent/36/000000/shopping-cart.png"
-              /></a>
-            </li>
-          </ul>
-        </div>
+  <title>A+ Automotive</title>
+  <style>
+    html,
+    body {
+      background: #fafafa;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="../src/piston-svgrepo-com.svg" alt="" width="30%" class="d-inline-block align-text-top"
+          style="margin: -5px 0px 0px 10px" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        aria-expanded="false" aria-controls="navbarTogglerDemo01" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span><span></span><span></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contactUs.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="./cart.html" class="nav-link" style="margin: 0"><img
+                src="https://img.icons8.com/fluent/36/000000/shopping-cart.png" /></a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <main>
-      <h2 id="carousel-heading">
-        <span style="display: inline; padding-right: 20px; background-color: white;">
+  <main>
+    <h2 id="carousel-heading">
+      <span style="display: inline; padding-right: 20px; background-color: #fafafa;">
         New Products
       </span>
-        <div class="dropdown" style="display: inline-block; position: absolute; right: 5%; padding-left: 30px; background-color: white;">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-            Sort By
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item" href="#">New</a></li>
-            <li><a class="dropdown-item" href="./products.html">Popularity</a></li>
-            <li><a class="dropdown-item" href="./lowtohighProducts.html">Price low to high</a></li>
-            <li><a class="dropdown-item" href="./ratingProducts.html">Highest Rating</a></li>
-          </ul>
-      </span>
+      <div class="dropdown"
+        style="display: inline-block; position: absolute; right: 5%; padding-left: 30px; background-color: #fafafa;">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+          data-bs-toggle="dropdown" aria-expanded="false">
+          Sort By
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#">New</a></li>
+          <li><a class="dropdown-item" href="./products.html">Popularity</a></li>
+          <li><a class="dropdown-item" href="./lowtohighProducts.html">Price low to high</a></li>
+          <li><a class="dropdown-item" href="./ratingProducts.html">Highest Rating</a></li>
+        </ul>
+        </span>
     </h2>
-      <div class="container-fluid ">
-        <div class="row row-cols-4 row-cols-xxl-3 row-cols-lg-2 row-cols-md-2 row-cols-sm-1 justify-content-center">
+    <div class="container-fluid ">
+      <div class="row row-cols-4 row-cols-xxl-3 row-cols-lg-2 row-cols-md-2 row-cols-sm-1 justify-content-center">
         <div class="card col" style="width: 22rem">
-          <img
-            src="../src/img/agustin-segura-eDXRq-2LfNM-unsplash.jpg"
-            class="card-img-top"
-            alt="..."
-          />
+          <img src="../src/img/AC Compressor - 16000.png" class="card-img-top" alt="..." />
           <div class="card-body">
             <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              AC Compressor <br> <strong>Rs 16000.00</strong> &emsp;
+              <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                class="fa fa-star-half-o" aria-hidden="true"></i>
             </p>
           </div>
         </div>
 
         <div class="card col" style="width: 22rem">
-          <img
-            src="../src/img/ford-mustang-8k-2020-y8-1920x1080.jpg"
-            class="card-img-top"
-            alt="..."
-          />
+          <img src="../src/img/Sony Infotainment System - 17000.png" class="card-img-top" alt="..." />
           <div class="card-body">
             <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Sony Infotainment System <br> <strong>Rs 17000.00</strong> &emsp;
+              <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-half-o" aria-hidden="true"></i>
             </p>
           </div>
         </div>
 
         <div class="card col" style="width: 22rem">
-          <img
-            src="../src/img/toyota-supra-modified-4k-3r-1920x1080.jpg"
-            class="card-img-top"
-            alt="..."
-          />
+          <img src="../src/img/automotive gearbox - 5000.jpg" class="card-img-top" alt="..." />
           <div class="card-body">
             <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Automotive Gearbox <br> <strong>Rs 5000.00</strong> &emsp;
+              <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
             </p>
           </div>
         </div>
 
-      <div class="card col" style="width: 22rem">
-        <img
-          src="../src/img/angus-gray-8-V4T4bGlM4-unsplash.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
+        <div class="card col" style="width: 22rem">
+          <img src="../src/img/Engine Block -13000.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Engine Block <br> <strong>Rs 13000.00</strong> &emsp;
+              </i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                class="fa fa-star" aria-hidden="true"></i>
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="w-100 d-none d-xxl-block"></div>
+        <div class="w-100 d-none d-xxl-block"></div>
 
-      <div class="card col" style="width: 22rem">
-        <img
-          src="../src/img/ford-mustang-shelby-1920x1080.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
+        <div class="card col" style="width: 22rem">
+          <img src="../src/img/Car Radiator (XUV 500) - 4500.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              XUV-500 Radiator <br> <strong>Rs 450.00</strong> &emsp;
+              </i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="card col" style="width: 22rem">
-        <img
-          src="../src/img/mustang_car_sports_car_163407_1920x1080.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
+        <div class="card col" style="width: 22rem">
+          <img src="../src/img/Car Mat - 2000.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Car Mat <br> <strong>Rs 200.00</strong> &emsp;
+              <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                class="fa fa-star-half-o" aria-hidden="true"></i>
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="card col" style="width: 22rem">
-        <img
-          src="../src/img/nissan-gtr-nfs-rear-4k-fo-1920x1080.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
+        <div class="card col" style="width: 22rem">
+          <img src="../src/img/Exhaust Pipe - 26000.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Exhaust Pipe <br> <strong>Rs 26000.00</strong> &emsp;
+              </i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="card col" style="width: 22rem">
-        <img
-          src="../src/img/ryan-spencer-c-NEiPIxpYI-unsplash.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
+        <div class="card col" style="width: 22rem">
+          <img src="../src/img/Custom Leather Seat Covers - 7000 per piece.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Custom Leather Seat Covers <br> <strong>Rs 7000/piece</strong> &emsp;
+              <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="w-100 d-none d-xxl-block"></div>
+        <div class="w-100 d-none d-xxl-block"></div>
 
-      <div class="card col" style="width: 22rem">
-        <img
-          src="../src/img/ford-mustang-8k-2020-y8-1920x1080.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
+        <div class="card col" style="width: 22rem">
+          <img src="../src/img/Driveshaft Set - 12500.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Driveshaft Set <br> <strong>Rs 12500.00</strong> &emsp;
+              </i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="card col" style="width: 22rem">
-        <img
-          src="../src/img/toyota-supra-modified-4k-3r-1920x1080.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
+        <div class="card col" style="width: 22rem">
+          <img src="../src/img/BOSCH Rear Brake Shoe - 969.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              BOSCH Rear Brake Shoes <br> <strong>Rs 969.00</strong> &emsp;
+              <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                class="fa fa-star" aria-hidden="true"></i>
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="card col" style="width: 22rem">
-        <img
-          src="../src/img/nissan-gtr-canada-aa-1920x1080.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
+        <div class="card col" style="width: 22rem">
+          <img src="../src/img/Clutch Kit - 2500.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Clutch Kit <br> <strong>Rs 2500.00</strong> &emsp;
+              <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="card col" style="width: 22rem">
-        <img
-          src="../src/img/camera_lens_dark_134364_1920x1080.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
+        <div class="card col" style="width: 22rem">
+          <img src="../src/img/Car Headlights - 110002.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Car Headlights <br> <strong>Rs 11000.00</strong> &emsp;
+              </i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </p>
+          </div>
         </div>
-      </div>
-      
-      <div class="w-100 d-none d-xxl-block"></div>
 
-      <div class="card col" style="width: 22rem">
-        <img
-          src="../src/img/pexels-george-sultan-1409999-min.png"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
+        <div class="w-100 d-none d-xxl-block"></div>
+
+        <div class="card col" style="width: 22rem">
+          <img src="../src/img/Castrol Engine Oil 5L - 1700.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Castrol Engine Oil - 5L <br> <strong>Rs 1900.00</strong> &emsp;
+              <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                class="fa fa-star" aria-hidden="true"></i>
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="card col" style="width: 22rem">
-        <img
-          src="../src/img/ford-mustang-shelby-1920x1080.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
+        <div class="card col" style="width: 22rem">
+          <img src="../src/img/Exide Car Battery - 6000.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Exide Car Battery <br> <strong>Rs 6000.00</strong> &emsp;
+              <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                class="fa fa-star-half-o" aria-hidden="true"></i>
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="card col" style="width: 22rem">
-        <img
-          src="../src/img/nissan-gtr-nfs-rear-4k-fo-1920x1080.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
+        <div class="card col" style="width: 22rem">
+          <img src="../src/img/Alloy Wheel - 7200.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Alloy Wheel <br> <strong>Rs 7200/piece</strong> &emsp;
+              <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                class="fa fa-star" aria-hidden="true"></i>
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="card col" style="width: 22rem">
-        <img
-          src="../src/img/pexels-george-sultan-1409999-min.png"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
+        <div class="card col" style="width: 22rem">
+          <img src="../src/img/Sony subwoofer 420rms - 79002.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Sony Subwoofer - 420RMS <br> <strong>Rs 7900.00</strong> &emsp;
+              <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                class="fa fa-star-half-o" aria-hidden="true"></i>
+            </p>
+          </div>
         </div>
-      </div>
-      
-      <div>
-    </div>
-    </main>
 
-    <!-- <div class="btns pb-2 d-flex justify-content-center">
+        <div>
+        </div>
+  </main>
+
+  <!-- <div class="btns pb-2 d-flex justify-content-center">
       <button type="button" class="btn btn-dark" id="prev-btn">Previous Page</button>
     </div> -->
 
-    <footer>
-      <div class="footer-content">
-        <h3>A+ Automotive</h3>
-        <ul class="socials" style="transform: translateX(-7%);">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-        </ul>
-         <ul class="socials ">
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Return Policy</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Get A Quote</a></li></ul>
-        </ul>
+  <footer>
+    <div class="footer-content">
+      <h3>A+ Automotive</h3>
+      <ul class="socials" style="transform: translateX(-7%);">
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+      </ul>
+      <ul class="socials ">
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Return Policy</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Get A Quote</a></li>
+      </ul>
+      </ul>
     </div>
     <div class="footer-bottom">
-        <p>Copyright &copy; A+ Automotive. All rights reserved</p>
+      <p>Copyright &copy; A+ Automotive. All rights reserved</p>
     </div>
-    </footer>
+  </footer>
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-      crossorigin="anonymous"
-    ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"></script>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-      crossorigin="anonymous"
-    ></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
-      integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
-      crossorigin="anonymous"
-    ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
+    integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
+    crossorigin="anonymous"></script>
 
-    <script src="../js/script.js"></script>
-  </body>
+  <script src="../js/script.js"></script>
+</body>
+
 </html>
