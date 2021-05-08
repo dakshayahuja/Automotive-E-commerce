@@ -58,7 +58,28 @@
         <div class="col-sm-12 col-lg-6 quote-txt">
           <p>Unable to find a specific spare part? Looking for bulk spare parts procurement? Share your Request For
             Quotation(RFQ) and we will provide you with a custom quote at the best prices</p>
-          <button type="button" class="btn btn-dark mb-5" id="quote">Give Requirements</button>
+          <button type="button" class="btn btn-dark mb-5" data-modal="modalOne" id="quote">Give Requirements</button>
+          <div id="modalOne" class="modal">
+            <div class="modal-content">
+              <div class="contact-form">
+                <a class="close">&times;</a>
+                <form action="/">
+                  <h2>Contact Us</h2>
+                  <div>
+                    <input class="fname" type="text" name="name" placeholder="Full name">
+                    <input type="text" name="name" placeholder="Email">
+                    <input type="text" name="name" placeholder="Phone number">
+                    <input type="text" name="name" placeholder="Website">
+                  </div>
+                  <span>Message</span>
+                  <div>
+                    <textarea rows="4"></textarea>
+                  </div>
+                  <button type="submit" href="#">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="col-sm-12 col-lg-6 quote-img">
           <img src="../src/img/car-inspection.jpg" class="img-fluid">
