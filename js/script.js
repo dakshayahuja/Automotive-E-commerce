@@ -30,12 +30,13 @@ $(document).ready(function () {
     $(".navbar-brand").click(function () {
       window.open("../index.html", "_self");
     }),
+    $("")
     $(".btn-warning").click(function () {
       swal("Order Placed!", "Your order has been successfully placed.", "success");
     });
 });
 
-let modalBtns = [...document.querySelectorAll("#quote")];
+let modalBtns = [...document.querySelectorAll(".btn")];
 modalBtns.forEach(function (btn) {
   btn.onclick = function () {
     let modal = btn.getAttribute('data-modal');

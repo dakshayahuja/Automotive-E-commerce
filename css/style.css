@@ -373,9 +373,9 @@ footer {
   background-color: rgba(0, 0, 0, 0.4);
 }
 .modal-content {
-  margin: 50px auto;
+  margin: 30px auto;
   border: 1px solid #999;
-  width: 60%;
+  width: 45%;
 }
 
 form {
@@ -495,7 +495,7 @@ th:last-child {
 
 .total {
   font-size: 1.5rem;
-  font-style: italic;
+  font-weight: bold;
 }
 
 .cart-btn {
