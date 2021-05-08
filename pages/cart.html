@@ -14,6 +14,12 @@
   <link rel="stylesheet" href="../css/style.css" />
 
   <title>A+ Automotive</title>
+
+  <style>
+    /* .html,body{
+      background-color: ;
+    } */
+  </style>
 </head>
 
 <body>
@@ -48,6 +54,94 @@
     </div>
   </nav>
 
+  <main>
+    <div class="container-lg cart-page" style="margin-top: 1rem;">
+      <table class="table table-responsive-sm table-secondary table-hover table-striped caption-top">
+        <caption><img
+            src="https://img.icons8.com/fluent/36/000000/shopping-cart.png" style="margin: 0 1rem 0.5rem 0" />Shopping
+          Cart</caption>
+        <thead class="table-dark">
+          <th scope="col" style="padding-left: 2rem;">Products</th>
+          <th scope="col">Quantity</th>
+          <th scope="col">Subtotal</th>
+        </thead>
+        <tbody class="align-middle">
+          <tr>
+            <td>
+              <div class="cart-info">
+                <img src="../src/img/Custom Leather Seat Covers - 7000 per piece.png" class="img-responsive">
+                <div class="cart-info-text">
+                  <p>Custom Leather Seat Cover</p>
+                  <small>Price: Rs 7000</small>
+                  <br>
+                  <a href="">Remove</a>
+                </div>
+              </div>
+            </td>
+            <td><input type="number" value="4"></td>
+            <td>Rs 28000</td>
+          </tr>
+          <tr class="align-middle">
+            <td>
+              <div class="cart-info">
+                <img src="../src/img/Alloy Wheel - 7200.png" class="img-responsive">
+                <div class="cart-info-text">
+                  <p>Alloy Wheel</p>
+                  <small>Price: Rs 7200</small>
+                  <br>
+                  <a href="">Remove</a>
+                </div>
+              </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>Rs 7200</td>
+          </tr>
+          <tr class="align-middle">
+            <td>
+              <div class="cart-info">
+                <img src="../src/img/Sony Infotainment System - 17000.png" class="img-responsive">
+                <div class="cart-info-text">
+                  <p>Sony Infotainment System</p>
+                  <small>Price: Rs 17000</small>
+                  <br>
+                  <a href="">Remove</a>
+                </div>
+              </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>Rs 17000</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="container total-price">
+        <div class="row">
+          <div class="col" style="text-align: center;">
+            <button type="button" class="btn btn-info cart-btn">Address Details</button>
+            <button type="button" class="btn btn-info cart-btn">Payment Details</button><br><br>
+            <button type="button" class="btn btn-warning btn-lg">Checkout</button>
+          </div>
+          <div class="col total-table">
+            <table>
+              <tr>
+              </tr>
+              <tr>
+                <td>Subtotal</td>
+                <td>Rs 52,200.00</td>
+              </tr>
+              <tr>
+                <td>Tax &nbsp;(18%)</td>
+                <td>Rs 9396.00</td>
+              </tr>
+              <tr style="border-top: 2px solid black; border-bottom: 2px solid black;">
+                <td class="total">Total</td>
+                <td class="total">Rs 61,596.00</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+  </main>
 
   <footer>
     <div class="footer-content">
@@ -84,7 +178,10 @@
     integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
     crossorigin="anonymous"></script>
 
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
   <script src="../js/script.js"></script>
+
 </body>
 
 </html>

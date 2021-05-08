@@ -23,39 +23,35 @@ $('.owl-carousel').owlCarousel({
   }
 });
 
-$(document).on('click', '#btn1', function () {
-  window.open("./pages/products.html", "_self");
+$(document).ready(function () {
+  $(".btn1").click(function () {
+    window.open("./pages/products.html", "_self");
+  }),
+    $(".navbar-brand").click(function () {
+      window.open("../index.html", "_self");
+    }),
+    $(".btn-warning").click(function(){
+      swal("Order Placed!", "Your order has been successfully placed.", "success");
+    });
 });
 
-$(document).on('click', '#next-btn', function () {
-  window.open("./products2.html", "_self");
+let modalBtns = [...document.querySelectorAll("#quote")];
+modalBtns.forEach(function (btn) {
+  btn.onclick = function () {
+    let modal = btn.getAttribute('data-modal');
+    document.getElementById(modal)
+      .style.display = "block";
+  }
 });
-
-$(document).on('click', '#prev-btn', function () {
-  window.open("./products.html", "_self");
+let closeBtns = [...document.querySelectorAll(".close")];
+closeBtns.forEach(function (btn) {
+  btn.onclick = function () {
+    let modal = btn.closest('.modal');
+    modal.style.display = "none";
+  }
 });
-
-$(document).on('click', '.navbar-brand', function () {
-  window.open("../index.html", "_self");
-});
-
-    let modalBtns = [...document.querySelectorAll("#quote")];
-      modalBtns.forEach(function(btn) {
-        btn.onclick = function() {
-          let modal = btn.getAttribute('data-modal');
-          document.getElementById(modal)
-            .style.display = "block";
-        }
-      });
-     let closeBtns = [...document.querySelectorAll(".close")];
-      closeBtns.forEach(function(btn) {
-        btn.onclick = function() {
-          let modal = btn.closest('.modal');
-          modal.style.display = "none";
-        }
-      });
-     window.onclick = function(event) {
-        if(event.target.className === "modal") {
-          event.target.style.display = "none";
-        }
-      }
+window.onclick = function (event) {
+  if (event.target.className === "modal") {
+    event.target.style.display = "none";
+  }
+}
