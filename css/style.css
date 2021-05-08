@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital@1&display=swap");
 
 html,
 body {
@@ -183,12 +183,11 @@ h1.text-uppercase {
   padding: 2rem 0;
 }
 
-.car-text{
+.car-text {
   font-family: "Bitter";
   font-size: 1.1rem;
   color: #2d4059;
   font-weight: bold;
-  
 }
 
 .card {
@@ -239,24 +238,24 @@ h1.text-uppercase {
   font-family: "Bitter", sans-serif;
 }
 
-.review-fp{
-  background-color: #f4eeffb1;  
+.review-fp {
+  background-color: #f4eeffb1;
 }
 
-.fp-name{
+.fp-name {
   font-size: 1.6rem;
 }
 
-.fp-date{
+.fp-date {
   font-size: 1.3rem;
 }
 
-.fp-content{
+.fp-content {
   font-size: 1.25rem;
   padding: 0.5rem;
 }
 
-hr{
+hr {
   color: black;
   border: 1px solid black;
 }
@@ -272,11 +271,11 @@ hr{
   color: #d89336;
 }
 
-#aboutus{
+#aboutus {
   margin-bottom: 3rem;
 }
 
-#aboutus ul{
+#aboutus ul {
   color: #27496d;
   padding-top: 3rem;
   font-size: 1.25rem;
@@ -336,8 +335,7 @@ footer {
   text-align: center;
 }
 
-
-.quote-txt{
+.quote-txt {
   padding-top: 5vh;
   padding-left: 5vw;
   text-align: center;
@@ -345,22 +343,22 @@ footer {
   font-family: "Lora";
 }
 
-.quote-img{
+.quote-img {
   text-align: center;
 }
 
-.quote-img img{
+.quote-img img {
   height: 40vh;
 }
 
-.retpol{
+.retpol {
   font-family: "Lora";
   font-size: 1.2rem;
   margin-top: 2rem;
   padding: 1rem 1rem;
 }
 
-.retpol ul li{
+.retpol ul li {
   list-style-type: circle;
 }
 
@@ -423,120 +421,119 @@ button:hover {
   cursor: pointer;
 }
 
-.cart-page{
-  margin:80px auto;
+.cart-page {
+  margin: 80px auto;
 }
 
-table{
-  width:100%;
-  border-collapse:collapse;
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-caption{
-  font-size: 2vw; 
-  color: #000; 
-  font-family:Bitter;
+caption {
+  font-size: 2vw;
+  color: #000;
+  font-family: Bitter;
   padding: 2rem 0.5rem;
 }
 
-.table-dark{
+.table-dark {
   font-size: 2vw;
   font-family: "Merriweather";
 }
 
-.cart-info{
-  display:flex;
-  flex-wrap:wrap;
+.cart-info {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.cart-info-text{
+.cart-info-text {
   padding: 2rem 1rem;
 }
 
-th{
-  text-align:left;
-  font-weight:normal;
+th {
+  text-align: left;
+  font-weight: normal;
 }
 
-td{
+td {
   font-family: "Lora";
   font-size: 1.2rem;
-
 }
 
-td input{
-  width:40px;
-  height:30px;
-  padding:5px;
+td input {
+  width: 40px;
+  height: 30px;
+  padding: 5px;
 }
 
-td a{
-  color:#ff523b;
-  font-size:12px;
+td a {
+  color: #ff523b;
+  font-size: 12px;
 }
 
-td img{
-  width:180px;
+td img {
+  width: 180px;
 }
 
-td:last-child{
-  text-align:right;
+td:last-child {
+  text-align: right;
 }
-th:last-child{
-  text-align:right;
+th:last-child {
+  text-align: right;
 }
 
-.total-table{
+.total-table {
   border-top: 3px solid #00adb5;
-  max-width: 30vw
+  max-width: 30vw;
 }
 
-.total-price td{
+.total-price td {
   padding: 1rem 1rem 1rem 0;
   width: fit-content;
 }
 
-.total{
+.total {
   font-size: 1.5rem;
   font-style: italic;
 }
 
-.cart-btn{
+.cart-btn {
   font-family: "Antic Slab";
   margin: 2vh 2vw 1vh;
 }
 
-.cart-btn:hover{
+.cart-btn:hover {
   font-size: 1.4rem;
-  background-color: #0B5ED7;
+  background-color: #0b5ed7;
 }
 
-.btn-warning{
+.btn-warning {
   margin-bottom: 3vh;
 }
 
-.btn-warning:hover{
+.btn-warning:hover {
   font-size: 1.7rem;
   background-color: #ff9a00;
 }
 
-@media only screen and (max-width:642px){
-  .cart-info img{
-      display:none;
+@media only screen and (max-width: 642px) {
+  .cart-info img {
+    display: none;
   }
-} 
+}
 
 @media screen and (max-width: 1000px) {
   .title-btn {
     font-size: 2.5vw;
   }
-  .modal-content{
+  .modal-content {
     width: 90vw;
   }
-  .total-table{
+  .total-table {
     max-width: 100%;
   }
-  caption{
+  caption {
     font-size: 3vh;
   }
 }

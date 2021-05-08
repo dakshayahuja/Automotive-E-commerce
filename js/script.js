@@ -30,7 +30,7 @@ $(document).ready(function () {
     $(".navbar-brand").click(function () {
       window.open("../index.html", "_self");
     }),
-    $(".btn-warning").click(function(){
+    $(".btn-warning").click(function () {
       swal("Order Placed!", "Your order has been successfully placed.", "success");
     });
 });
