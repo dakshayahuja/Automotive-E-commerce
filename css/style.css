@@ -573,6 +573,9 @@ th:last-child {
 }
 
 @media screen and (max-width: 1000px) {
+  .navbar-brand{
+    font-size: 2rem;
+  }
   .title-btn {
     font-size: 2.5vw;
   }
