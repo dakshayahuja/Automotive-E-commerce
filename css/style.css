@@ -578,4 +578,7 @@ th:last-child {
   caption {
     font-size: 3vh;
   }
+  .benefits{
+    display: none;
+  }
 }
