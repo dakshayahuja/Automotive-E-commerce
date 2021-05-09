@@ -39,6 +39,11 @@ ul {
 }
 
 
+strong{
+  font-weight: normal;
+}
+
+
 /*HEADER / NAVBAR*/
 
 
@@ -213,6 +218,7 @@ h1.text-uppercase {
 .card-body .card-text {
   font-size: 1.2rem;
   font-family: "Lora";
+  font-weight: 600;
   text-align: center;
 }
 
@@ -549,11 +555,12 @@ th:last-child {
 }
 
 .link-dark{
-  text-decoration: underline;
+  text-decoration: none;
+  font-family: Roboto;
 }
 
 .link-dark:hover{
-  color: red;
+  color: #999;
 }
 
 
@@ -580,5 +587,8 @@ th:last-child {
   }
   .benefits{
     display: none;
+  }
+  h3{
+    font-size: 3vw;
   }
 }
