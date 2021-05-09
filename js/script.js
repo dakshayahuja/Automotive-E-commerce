@@ -1,3 +1,5 @@
+//OWL CAROUSEL WORKING (PRODUCTS DIV ON MAIN PAGE)
+
 $('.owl-carousel').owlCarousel({
   loop: true,
   // stagePadding: 50,
@@ -23,6 +25,8 @@ $('.owl-carousel').owlCarousel({
   }
 });
 
+//USE OF JQUERY FOR EVENTS
+
 $(document).ready(function () {
   $(".btn1").click(function () {
     window.open("./pages/products.html", "_self");
@@ -30,12 +34,15 @@ $(document).ready(function () {
     $(".navbar-brand").click(function () {
       window.open("../index.html", "_self");
     }),
-    $("")
+    
+    //ANIMATION ON CHECKOUT BUTTON
     $(".btn-warning").click(function () {
       swal("Order Placed!", "Your order has been successfully placed.", "success");
     });
 });
 
+
+// OPENING OF POP-UP FORM ON CLICK
 let modalBtns = [...document.querySelectorAll(".btn")];
 modalBtns.forEach(function (btn) {
   btn.onclick = function () {
@@ -44,6 +51,8 @@ modalBtns.forEach(function (btn) {
       .style.display = "block";
   }
 });
+
+//CLOSING OF POP-UP FORM ON CLICK
 let closeBtns = [...document.querySelectorAll(".close")];
 closeBtns.forEach(function (btn) {
   btn.onclick = function () {
@@ -51,6 +60,7 @@ closeBtns.forEach(function (btn) {
     modal.style.display = "none";
   }
 });
+
 window.onclick = function (event) {
   if (event.target.className === "modal") {
     event.target.style.display = "none";
