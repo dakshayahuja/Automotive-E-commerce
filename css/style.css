@@ -517,6 +517,14 @@ th:last-child {
   background-color: #ff9a00;
 }
 
+.link-dark{
+  text-decoration: underline;
+}
+
+.link-dark:hover{
+  color: red;
+}
+
 @media only screen and (max-width: 642px) {
   .cart-info img {
     display: none;
