@@ -470,7 +470,8 @@ table {
 
 caption {
   font-size: 2vw;
-  color: #000;
+  color: #EE541B;;
+  font-weight: 600;
   font-family: Bitter;
   padding: 2rem 0.5rem;
 }
