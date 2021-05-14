@@ -47,8 +47,7 @@ let modalBtns = [...document.querySelectorAll(".btn")];
 modalBtns.forEach(function (btn) {
   btn.onclick = function () {
     let modal = btn.getAttribute('data-modal');
-    document.getElementById(modal)
-      .style.display = "block";
+    document.getElementById(modal).style.display = "block";
   }
 });
 
